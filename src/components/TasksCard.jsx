@@ -8,14 +8,14 @@ const TasksCard=({task}) => {
 
     return (
     
-       <Card className="max-w-[800px] w-full  p-5 gap-4 border border-default-200 shadow-sm rounded-2xl hover:shadow-md transition-shadow">
+       <Card className="max-w-[800px] w-full  p-5 gap-4  shadow-xl shadow-purple-300/50 rounded-2xl bg-white text-black">
             
             {/* Icon */}
             {/* <CircleDollar className="text-primary size-6" /> */}
 
             {/* Header */}
             <Card.Header className="flex flex-col items-start gap-1 p-0">
-                <h4 className="text-base font-semibold text-default-900">
+                <h4 className="text-base font-semibold text-default-900 text-purple-300">
                     {title}
                 </h4>
                 <p className="text-sm text-default-500 leading-relaxed">

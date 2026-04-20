@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Learn HTML basics",
+    "description": "Complete all HTML tags and structure",
+    "status": "completed",
+    "priority": "high",
+    "dueDate": "2026-04-20"
+  },
+  {
+    "id": 2,
+    "title": "Practice CSS Flexbox",
+    "description": "Build 3 layouts using Flexbox",
+    "status": "in-progress",
+    "priority": "medium",
+    "dueDate": "2026-04-22"
+  },
+  {
+    "id": 3,
+    "title": "Learn JavaScript fundamentals",
+    "description": "Variables, functions, loops",
+    "status": "pending",
+    "priority": "high",
+    "dueDate": "2026-04-25"
+  },
+  {
+    "id": 4,
+    "title": "Build a portfolio website",
+    "description": "Create personal portfolio using HTML & CSS",
+    "status": "pending",
+    "priority": "medium",
+    "dueDate": "2026-04-28"
+  },
+  {
+    "id": 5,
+    "title": "Start learning React",
+    "description": "Understand components, props, state",
+    "status": "pending",
+    "priority": "high",
+    "dueDate": "2026-05-01"
+  }
+]

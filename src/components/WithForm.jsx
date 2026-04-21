@@ -24,16 +24,16 @@ export function WithForm({createPost}) {
             <Modal.Body className="p-6">
               <Surface variant="default">
                 <form action={createPost} className="flex flex-col gap-4">
-                  <TextField className="w-full" name="name" type="text">
+                  <TextField className="w-full" name="title" type="text">
                     <Label>Title</Label>
                     <Input placeholder="Enter your Title" />
                   </TextField>
-                  <TextField className="w-full" name="Description" type="text">
+                  <TextField className="w-full" name="description" type="text">
                     <Label>Description</Label>
                     <Input placeholder="Enter your Description" />
                   </TextField>
 
-                   <Select name="Priority" className="w-[256px]" placeholder="Select one">
+                   <Select name="priority" className="w-[256px]" placeholder="Select one">
       <Label>Priority</Label>
       <Select.Trigger>
         <Select.Value />
@@ -41,7 +41,7 @@ export function WithForm({createPost}) {
       </Select.Trigger>
       <Select.Popover>
         <ListBox>
-          <ListBox.Item id="Low" textValue="Low">
+                        <ListBox.Item  id="Low" textValue="Low">
             Low
             <ListBox.ItemIndicator />
           </ListBox.Item>

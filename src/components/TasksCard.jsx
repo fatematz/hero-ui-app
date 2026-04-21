@@ -2,7 +2,7 @@
 import { Card, Link } from '@heroui/react'
 
 const TasksCard=({task}) => {
-    
+    // console.log( task )
 
     const {id, title, description} = task
 
@@ -30,7 +30,7 @@ const TasksCard=({task}) => {
                     href="https://heroui.com"
                     isExternal
                     showAnchorIcon
-                    className="text-sm font-medium text-primary gap-1"
+                    className="text-sm text-black font-medium  gap-1"
                 >
                     Creator Hub
                 </Link>

@@ -5,7 +5,8 @@
     "description": "Complete all HTML tags and structure",
     "status": "completed",
     "priority": "high",
-    "dueDate": "2026-04-20"
+    "dueDate": "2026-04-20",
+    "assignTo": "Unassigned"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "description": "Build 3 layouts using Flexbox",
     "status": "in-progress",
     "priority": "medium",
-    "dueDate": "2026-04-22"
+    "dueDate": "2026-04-22",
+    "assignTo": "Unassigned"
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "description": "Variables, functions, loops",
     "status": "pending",
     "priority": "high",
-    "dueDate": "2026-04-25"
+    "dueDate": "2026-04-25",
+    "assignTo": "Unassigned"
   },
   {
     "id": 4,
@@ -29,7 +32,8 @@
     "description": "Create personal portfolio using HTML & CSS",
     "status": "pending",
     "priority": "medium",
-    "dueDate": "2026-04-28"
+    "dueDate": "2026-04-28",
+    "assignTo": "Unassigned"
   },
   {
     "id": 5,
@@ -37,6 +41,7 @@
     "description": "Understand components, props, state",
     "status": "pending",
     "priority": "high",
-    "dueDate": "2026-05-01"
+    "dueDate": "2026-05-01",
+    "assignTo": "Unassigned"
   }
 ]

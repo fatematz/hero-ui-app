@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import NextThemeProviders from "@/providers/NextThemeProviders";
 
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -32,7 +33,8 @@ export default function RootLayout({ children }) {
        
         <NextThemeProviders>
 
-        <Navbar />
+          <Navbar />
+ 
         <main >
         {children}
           </main>
